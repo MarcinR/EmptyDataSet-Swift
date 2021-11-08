@@ -24,7 +24,6 @@
 		2F7823E11F0A3C5A0053B957 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7823E01F0A3C5A0053B957 /* RootViewController.swift */; };
 		2FD3C7521FB4080200B6CFDA /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD3C7511FB4080200B6CFDA /* TestViewController.swift */; };
 		2FFAC5F72027ED36008BD16D /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFAC5F62027ED36008BD16D /* Application.swift */; };
-		4D7A7C23D7375D9339C79778 /* Pods_EmptyDataSet_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B850C7135B0195A2B7FA61F /* Pods_EmptyDataSet_Swift.framework */; };
 		61F8491422CE212300F50028 /* EmptyDataSet_Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 61F8491222CE212300F50028 /* EmptyDataSet_Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61F8491722CE212300F50028 /* EmptyDataSet_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F8491022CE212300F50028 /* EmptyDataSet_Swift.framework */; };
 		61F8491822CE212300F50028 /* EmptyDataSet_Swift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 61F8491022CE212300F50028 /* EmptyDataSet_Swift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -33,6 +32,7 @@
 		61F8492022CE217600F50028 /* EmptyDataSetSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFAC5FE2027EDC8008BD16D /* EmptyDataSetSource.swift */; };
 		61F8492122CE217600F50028 /* EmptyDataSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFAC5FF2027EDC8008BD16D /* EmptyDataSetView.swift */; };
 		61F8492222CE217600F50028 /* EmptyDataSetView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFAC5FB2027EDC8008BD16D /* EmptyDataSetView+Extension.swift */; };
+		B2F7FA3C273960E400D5B5DC /* Pods_EmptyDataSet_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F7FA3B273960E400D5B5DC /* Pods_EmptyDataSet_Swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +90,10 @@
 		61F8491322CE212300F50028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D59DE5A2E3F67229F7660FC /* Pods-EmptyDataSet-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmptyDataSet-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmptyDataSet-Swift/Pods-EmptyDataSet-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		9B850C7135B0195A2B7FA61F /* Pods_EmptyDataSet_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmptyDataSet_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F7FA35273960B900D5B5DC /* Pods_EmptyDataSet_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_EmptyDataSet_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F7FA38273960CB00D5B5DC /* Pods_EmptyDataSet_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_EmptyDataSet_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F7FA3B273960E400D5B5DC /* Pods_EmptyDataSet_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_EmptyDataSet_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F7FA3F273960E800D5B5DC /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D7A7C23D7375D9339C79778 /* Pods_EmptyDataSet_Swift.framework in Frameworks */,
+				B2F7FA3C273960E400D5B5DC /* Pods_EmptyDataSet_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +220,10 @@
 		54F1F69A4766929391644BE6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B2F7FA3F273960E800D5B5DC /* SnapKit.framework */,
+				B2F7FA3B273960E400D5B5DC /* Pods_EmptyDataSet_Swift.framework */,
+				B2F7FA38273960CB00D5B5DC /* Pods_EmptyDataSet_Swift.framework */,
+				B2F7FA35273960B900D5B5DC /* Pods_EmptyDataSet_Swift.framework */,
 				9B850C7135B0195A2B7FA61F /* Pods_EmptyDataSet_Swift.framework */,
 			);
 			name = Frameworks;
